@@ -22,3 +22,9 @@
     background-position: center center;
     background-size: cover;
 }
+
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
