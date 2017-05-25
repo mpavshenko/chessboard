@@ -1,0 +1,24 @@
+#board-container {
+    background: gray;
+}
+
+.cell {
+    float: left;
+}
+
+.light {
+    background: white;
+}
+
+.dark {
+    background: gray;
+}
+
+.piece {
+    cursor: grab; 
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
