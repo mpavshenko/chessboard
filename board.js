@@ -11,7 +11,8 @@ function board(containerSelector) {
     var boardSize = cellSize * cellCount;
     container.width(boardSize).height(boardSize);
     var cells = [];
-    for (var square of chess.SQUARES) {
+    for (var i = 0; i < chess.SQUARES.length; i++) {
+        var square = chess.SQUARES[i];
         var color = chess.square_color(square);
         var piece = chess.get(square);
         var cell = $('<div id="' + square + '" class="cell"></div>')
