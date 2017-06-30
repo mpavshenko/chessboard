@@ -55,8 +55,7 @@ body {
   border: 2px solid #2780E3;
 }
 
-#pieces-panel .b,
-#pieces-panel .w {
+#pieces-panel .pieces-panel-row {
   float: left;
 }
 
@@ -64,11 +63,6 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   border: 2px solid #2780E3;
-}
-
-#pieces-panel .gu-mirror .b,
-#pieces-panel .gu-mirror .w {
-  float: left;
 }
 
 #pieces-panel #pieces-panel .gu-mirror {
@@ -101,6 +95,31 @@ body {
   -webkit-box-shadow: inset 0 0 5px 5px #2780E3;
   -moz-box-shadow: inset 0 0 5px 5px #2780E3;
   box-shadow: inset 0 0 5px 5px #2780E3;
+}
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+.gu-hide {
+  display: none !important;
+}
+
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
 }
 /*!
  * bootswatch v3.3.7
@@ -8610,29 +8629,4 @@ a.list-group-item-danger.active:focus {
 
 .popover {
   color: #333333;
-}
-.gu-mirror {
-  position: fixed !important;
-  margin: 0 !important;
-  z-index: 9999 !important;
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
-}
-
-.gu-hide {
-  display: none !important;
-}
-
-.gu-unselectable {
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  user-select: none !important;
-}
-
-.gu-transit {
-  opacity: 0.2;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-  filter: alpha(opacity=20);
 }
