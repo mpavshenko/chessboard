@@ -212,7 +212,7 @@ body {
   bottom: 0px;
   right: 0px;
   width: auto;
-  height: 250px;
+  height: 310px;
   background-color: white;
 }
 
@@ -245,7 +245,7 @@ body {
 }
 
 #myslitel #myslitel-link-1 #myslitel-title-1 {
-  padding-top: 100px;
+  padding-top: 50px;
   display: table-cell;
   vertical-align: bottom;
   text-align: right;
