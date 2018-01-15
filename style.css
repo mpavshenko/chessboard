@@ -212,7 +212,7 @@ body {
   bottom: 0px;
   right: 0px;
   width: auto;
-  height: 115px;
+  height: 250px;
   background-color: white;
 }
 
@@ -227,6 +227,25 @@ body {
 }
 
 #myslitel #myslitel-link #myslitel-title {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+  height: 75px;
+}
+
+#myslitel #myslitel-link-1 {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+}
+
+#myslitel #myslitel-link-1 #myslitel-logo-1 {
+  float: right;
+}
+
+#myslitel #myslitel-link-1 #myslitel-title-1 {
+  padding-top: 100px;
   display: table-cell;
   vertical-align: bottom;
   text-align: right;
