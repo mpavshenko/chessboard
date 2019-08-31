@@ -174,7 +174,7 @@ body {
 }
 
 #board-container {
-  background-color: gray;
+  background-color: #9C6C49;
   font-size: 0px;
   float: left;
   margin-left: 20px;
@@ -183,6 +183,14 @@ body {
 
 #site-title {
   display: inline;
+}
+
+.mui-appbar {
+  background-color: #9C6C49 !important;
+}
+
+#menu-btn {
+  background-color: #9C6C49 !important;
 }
 
 #main-content-section {
@@ -209,10 +217,10 @@ body {
 
 #myslitel {
   padding: 20px;
-  bottom: 0px;
+  bottom: 20px;
   right: 0px;
   width: auto;
-  height: 115px;
+  height: 250px;
   background-color: white;
 }
 
@@ -222,21 +230,10 @@ body {
   text-decoration: inherit;
 }
 
-#myslitel #myslitel-link #myslitel-logo {
-  float: right;
-}
-
-#myslitel #myslitel-link #myslitel-title {
-  display: table-cell;
-  vertical-align: bottom;
-  text-align: right;
-  height: 75px;
-}
-
 .btn-main {
   width: 100px;
   color: #fff;
-  background-color: #2196F3;
+  background-color: #9C6C49;
   border: none;
   display: inline-block;
   outline: 0;
@@ -252,12 +249,12 @@ body {
 }
 
 .btn-main:hover {
-  background-color: #064475;
+  background-color: #342418;
 }
 
 .btn-main:active {
   transition: background-color 0s;
-  box-shadow: 0 0 0 0 #064475;
+  box-shadow: 0 0 0 0 #342418;
 }
 
 #tools-container {
@@ -287,9 +284,8 @@ body {
 }
 
 .gameField {
-  background: gray;
   float: left;
-  border: 2px solid white;
+  border: 2px solid #F0E1D4;
 }
 
 .gameField .cell {
@@ -297,11 +293,11 @@ body {
 }
 
 .light {
-  background: white;
+  background: #F0E1D4;
 }
 
 .dark {
-  background: gray;
+  background: #9C6C49;
 }
 
 .piece {
@@ -317,7 +313,7 @@ body {
   float: left;
   margin-left: 20px;
   margin-top: 20px;
-  border: 2px solid #2780E3;
+  border: 2px solid #9C6C49;
 }
 
 #pieces-panel .pieces-panel-row {
@@ -327,7 +323,7 @@ body {
 #pieces-panel .gu-mirror {
   margin-left: 20px;
   margin-top: 20px;
-  border: 2px solid #2196F3;
+  border: 2px solid #9C6C49;
 }
 
 #pieces-panel #pieces-panel .gu-mirror {
@@ -338,14 +334,14 @@ body {
 
 .numericLetter {
   text-align: center;
-  color: white;
+  color: #F0E1D4;
 }
 
 .alphabetLetter {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  color: white;
+  color: #F0E1D4;
 }
 
 .numericLetterPanel {
@@ -357,9 +353,9 @@ body {
 }
 
 .clicked {
-  -webkit-box-shadow: inset 0 0 5px 5px #2196F3;
-  -moz-box-shadow: inset 0 0 5px 5px #2196F3;
-  box-shadow: inset 0 0 5px 5px #2196F3;
+  -webkit-box-shadow: inset 0 0 5px 5px #9C6C49;
+  -moz-box-shadow: inset 0 0 5px 5px #9C6C49;
+  box-shadow: inset 0 0 5px 5px #9C6C49;
 }
 .gu-mirror {
   position: fixed !important;
@@ -10761,7 +10757,7 @@ th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -17139,7 +17135,7 @@ button.close {
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .carousel-control.left {
@@ -17232,7 +17228,7 @@ button.close {
   border-radius: 10px;
   cursor: pointer;
   background-color: #000 \9;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .carousel-indicators .active {
