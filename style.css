@@ -195,6 +195,7 @@ body {
 
 #main-content-section {
   padding: 0;
+  z-index: 1;
 }
 
 @media screen and (min-width: 1300px) {
@@ -216,11 +217,12 @@ body {
 }
 
 #myslitel {
+  z-index: 0;
   padding: 20px;
   bottom: 20px;
   right: 0px;
   width: auto;
-  height: 250px;
+  height: 420px;
   background-color: white;
 }
 
